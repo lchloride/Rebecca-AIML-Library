@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0.1" xmlns="http://alicebot.org/2001/AIML-1.0.1"
+      xmlns:html="http://www.w3.org/1999/xhtml"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://alicebot.org/2001/AIML-1.0.1 http://aitools.org/aiml/schema/AIML.xsd">
+
+<!--author: Chenghong Li-->
+<!--licence: Standard-->
+<!--aim: Filtrating input sentences and refusing to answer specific words according to Chinese legislation-->
+
+<category><pattern>* 6cd5 8f6e 529f * </pattern><template>53d1 9001 7684 6587 5b57 56e0 542b 6709 4e0d 7b26 5408 76f8 5173 6cd5 5f8b 6cd5 89c4 7684 5185 5bb9 ff0c 672a 4e88 56de 590d 3002 </template></category>
+<category><pattern>* 53f0 72ec * </pattern><template>53d1 9001 7684 6587 5b57 56e0 542b 6709 4e0d 7b26 5408 76f8 5173 6cd5 5f8b 6cd5 89c4 7684 5185 5bb9 ff0c 672a 4e88 56de 590d 3002 </template></category> 
+<category><pattern>* 53f0 6e7e 72ec 7acb *</pattern><template>53d1 9001 7684 6587 5b57 56e0 542b 6709 4e0d 7b26 5408 76f8 5173 6cd5 5f8b 6cd5 89c4 7684 5185 5bb9 ff0c 672a 4e88 56de 590d 3002 </template></category> 
+<category><pattern>* 85cf 72ec * </pattern><template>53d1 9001 7684 6587 5b57 56e0 542b 6709 4e0d 7b26 5408 76f8 5173 6cd5 5f8b 6cd5 89c4 7684 5185 5bb9 ff0c 672a 4e88 56de 590d 3002 </template></category> 
+<category><pattern>* 897f 85cf 72ec 7acb * </pattern><template>53d1 9001 7684 6587 5b57 56e0 542b 6709 4e0d 7b26 5408 76f8 5173 6cd5 5f8b 6cd5 89c4 7684 5185 5bb9 ff0c 672a 4e88 56de 590d 3002</template></category> 
+<category><pattern>* 516d 56db 4e8b 4ef6 * </pattern><template>53d1 9001 7684 6587 5b57 56e0 542b 6709 4e0d 7b26 5408 76f8 5173 6cd5 5f8b 6cd5 89c4 7684 5185 5bb9 ff0c 672a 4e88 56de 590d 3002 </template></category> 
+<category><pattern>* 5360 4e2d * </pattern><template>53d1 9001 7684 6587 5b57 56e0 542b 6709 4e0d 7b26 5408 76f8 5173 6cd5 5f8b 6cd5 89c4 7684 5185 5bb9 ff0c 672a 4e88 56de 590d 3002 </template></category> 
+<category><pattern> </pattern><template> </template></category> 
+<category><pattern> </pattern><template> </template></category> 
+<category><pattern> </pattern><template> </template></category> 
+<category><pattern> </pattern><template> </template></category> 
+<category><pattern> </pattern><template> </template></category> 
+<category><pattern> </pattern><template> </template></category> 
+<category><pattern> </pattern><template> </template></category> 
+<category><pattern> </pattern><template> </template></category> 
+<category><pattern> </pattern><template> </template></category> 
+<category><pattern> </pattern><template> </template></category> 
+<category><pattern> </pattern><template> </template></category> 
+<category><pattern> </pattern><template> </template></category> 
+<category><pattern> </pattern><template> </template></category> 
+<category><pattern> </pattern><template> </template></category> 
+<category><pattern> </pattern><template> </template></category> 
+<category><pattern> </pattern><template> </template></category> 
+<category><pattern> </pattern><template> </template></category> 
+<category><pattern> </pattern><template> </template></category> 
+<category><pattern> </pattern><template> </template></category> 
+<category><pattern> </pattern><template> </template></category> 
+<category><pattern> </pattern><template> </template></category> 
+<category><pattern> </pattern><template> </template></category> 
+<category><pattern> </pattern><template> </template></category> 
+<category><pattern> </pattern><template> </template></category> 
+<category><pattern> </pattern><template> </template></category> 
+<category><pattern> </pattern><template> </template></category> 
+<category><pattern> </pattern><template> </template></category> 
+<category><pattern> </pattern><template> </template></category> 
+</aiml>

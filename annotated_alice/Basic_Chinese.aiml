@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0.1" xmlns="http://alicebot.org/2001/AIML-1.0.1"
+      xmlns:html="http://www.w3.org/1999/xhtml"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://alicebot.org/2001/AIML-1.0.1 http://aitools.org/aiml/schema/AIML.xsd">
+
+<!--author: Chenghong Li-->
+<!--licence: Standard-->
+<!--aim: Replying for basic Chinese sentences especially greeting textes -->
+
+<category>
+	<pattern>#</pattern>
+	<template></template>
+</category>
+<category>
+	<pattern>4f60 597d #</pattern>
+	<template>
+4f60597d5440
+</template>
+</category>
+<category>
+	<pattern>4f60 597d *</pattern>
+	<template>
+4f60597d5440<srai><star index="1" /></srai></template>
+</category>
+<category>
+	<pattern>8c22 8c22 *</pattern>
+	<template>
+4e0d5ba26c14007e
+</template>
+</category>
+<category>
+	<pattern>8c22 8c22 5988 #</pattern>
+	<template>
+4e0d5ba26c14
+</template>
+</category>
+
+<category>
+	<pattern>518d 89c1 *</pattern>
+	<template>
+		<random>
+			<li>518d89c1</li>
+			<li>62dc62dc</li>
+			<li>56de89c1</li>
+		</random></template>
+</category>
+
+<category>
+	<pattern>* 5389 5BB3 *</pattern>
+	<template>
+		<random>
+			<li>55ef 6211 4e5f 662f 8fd9 4e48 89c9 5f97 </li>
+			<li>771f 7684 5417 </li>
+			<li>6211 4e0d 8fd9 4e48 60f3 0028 0020 02c7 02cd 02c7 0020 0029 </li>
+		</random></template>
+</category>
+
+<category>
+	<pattern>5389 5BB3 *</pattern>
+	<template>
+		<random>
+			<li>4e00 822c 4e00 822c 007e</li>
+			<li>4f60 8bf4 4ec0 4e48 6211 542c 4e0d 6e05 005c 0028 005e 006f 005e 0029 002f </li>
+		</random></template>
+</category>
+<category><pattern>4f60 4f1a 4ec0 4e48 8bed 8a00 *</pattern><template> <bot name="language"/> </template></category> 
+
+</aiml>

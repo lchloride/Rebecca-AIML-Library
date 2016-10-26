@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0.1" xmlns="http://alicebot.org/2001/AIML-1.0.1"
+      xmlns:html="http://www.w3.org/1999/xhtml"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://alicebot.org/2001/AIML-1.0.1 http://aitools.org/aiml/schema/AIML.xsd">
+<!-- Free software &copy; 1995-2004 ALICE A.I. Foundation. -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.01 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- Revision Bot-2.0 aims to answer personal question about AI in Chinese -->
+<!-- Last Modified  Sep 15 2016 by Chenghong Li-->
+
+<category><pattern>4f60 559c 6b22 4ec0 4e48 6e38 620f *</pattern><template>62116700559c6b22 <bot name="favoritegame"/> </template></category> 
+<category><pattern>4f60 * 7a0b 5e8f *</pattern><template>4f60 4e3a 4ec0 4e48 89c9 5f97 6211 <star index="1"/> 7a0b 5e8f 5462 </template></category> 
+<category><pattern>4f60 662f 4e2a * 7cfb 7edf *</pattern><template>55ef 5450 </template></category> 
+<category><pattern>4f60 662f 4e2a *</pattern><template> 
+	<random>
+		<li>55ef 5450 </li>
+		<li>4e0d 662f </li>
+		<li>6216 8bb8 5427 </li>
+		<li>6211 4e5f 4e0d 77e5 9053 </li>
+		<li>6709 65f6 662f </li>
+		<li>5f53 7136 662f </li>
+		<li>53ea 5f53 5b83 5f88 91cd 8981 7684 65f6 5019 </li>
+		<li>7ba1 5b83 5462 </li>
+	</random>
+</template></category> 
+<category><pattern>* 4e00 70b9 4e5f 4e0d 597d *</pattern><template>90a3 5c31 4e0d 8981 0054 0061 597d 4e86</template></category> 
+<category><pattern> </pattern><template> </template></category> 
+</aiml>
