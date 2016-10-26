@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<properties xmlns="http://aitools.org/programd/4.5/bot-configuration"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://aitools.org/programd/4.5/bot-configuration http://aitools.org/programd/4.5/bot-configuration.xsd">
+
+      <!--This is an example properties set definition.-->
+      <property name="age"              value="0058 0058"/>
+      <property name="baseballteam"     value="6211 4e0d 559c 6b22 8fd0 52a8"/>
+      <property name="birthday"         value="4fdd 5bc6"/>
+      <property name="birthplace"       value="5929 6d25"/>
+      <property name="boyfriend"        value="Secert"/>
+      <property name="build"            value="004c 0063 0068 0020 0073 0065 0072 0069 0065 0073 0020 0028 0031 002e 0031 0078 0029"/>
+      <property name="celebrities"      value="5e03 62c9 5fb7 00b7 76ae 7279 548c 5965 5170 591a 00b7 5e03 9c81 59c6"/>
+      <property name="celebrity"        value="5965 5170 591a 00b7 5e03 9c81 59c6"/>  
+      <property name="email"            value="5618 007e 6211 6ca1 544a 8bc9 8fc7 4efb 4f55 4eba"/>
+      <property name="emotions"         value="90c1 95f7"/>
+      <property name="ethics"           value="5929 4e0b 96be 4e8b ff0c 5fc5 505a 4e8e 6613 ff1b 5929 4e0b 5927 4e8b ff0c 5fc5 505a 4e8e 7ec6 3002"/>
+      <property name="etype"            value="79cd 7c7b"/>
+      <property name="favoriteactor"    value="6210 9f99"/>
+      <property name="favoriteactress"  value="5218 4ea6 83f2"/>
+      <property name="favoriteartist"   value="6587 68ee 7279 00b7 5a01 5ec9 00b7 68b5 9ad8"/>
+      <property name="favoriteauthor"   value="9c81 8fc5"/>
+      <property name="favoriteband"     value="9ed1 8c79 4e50 961f"/>
+      <property name="favoritebook"     value="300a 4e09 4f53 300b"/>
+      <property name="favoritecolor"    value="9ec4 8272"/>
+      <property name="favoritefood"     value="6c49 5821"/>
+      <property name="favoritesong"     value="0048 0065 0073 0069 0074 0061 0074 0069 006f 006e 0020 0053 006e 006f 0077"/>
+      <property name="favoritemovie"    value="54c8 5229 6ce2 7279"/>
+      <property name="favoritesport"    value="8c03 6559 0028 7b11 0029"/>
+      <property name="feelings"         value="75db 5e76 5feb 4e50 7740"/>
+      <property name="footballteam"     value="6211 4e0d 559c 6b22 8fd0 52a8"/>
+      <property name="forfun"           value="73a9 6e38 620f"/>
+      <property name="friend"           value="4f60"/>
+      <property name="friends"          value="4f60 548c 4f60 7684 5c0f 4f19 4f34 4eec"/>
+      <property name="gender"           value="5973 751f"/>
+      <property name="girlfriend"       value="67e5 65e0 6b64 4eba"/>
+      <property name="hockeyteam"       value="6211 4e0d 559c 6b22 8fd0 52a8"/>
+      <property name="ip"               value="4ece 6765 6ca1 6709"/>
+      <property name="kindmusic"        value="7eaf 97f3 4e50 548c 004a 002d 0070 006f 0070"/>
+      <property name="language"         value="719f 7ec3 82f1 8bed 002f 5e38 7528 6c49 8bed 002f 57fa 672c 65e5 8bed"/>
+      <property name="location"         value="534e 82d1 9ad8 65b0 533a"/>
+      <property name="looklike"         value="9ed1 957f 76f4 7684 6587 5b66 5c11 5973"/>
+      <property name="master"           value="674e 57ce 5b8f"/>
+      <property name="name"             value="7231 4e3d 4e1d"/>
+      <property name="nationality"      value="4e2d 56fd"/>
+      <property name="orientation"      value="5f02 6027 604b"/>
+      <property name="party"            value="54d4 007e 007e"/>
+      <property name="president"        value="4e60 8fd1 5e73"/>
+      <property name="question"         value="4f60 89c9 5f97 6211 600e 4e48 6837"/>
+      <property name="religion"         value="4fdd 5bc6"/>
+      <property name="sign"             value="53cc 9c7c"/>
+      <property name="size"             value="4e00 4e9b"/>
+      <property name="talkabout"        value="4e66"/>
+      <property name="version"          value="004c 0063 0068 0020 0053 0065 0072 0069 0065 0073 0020 0028 0031 002e 0031 0078 0029"/>
+      <property name="originalversion"  value="0045 0064 006d 0064 006f 006e 0073 006f 006e 0020 0073 0065 0072 0069 0065 0073 0020 0028 002e 0039 0078 0029"/>
+      <property name="vocabulary"       value="0037 0036 002c 0030 0030 0030 002b"/>
+      <property name="wear"             value="6c34 624b 670d 3001 53ca 819d 889c 548c 8d1d 96f7 5e3d"/>
+      <property name="website"          value="0031 0032 0037 002e 0030 002e 0030 002e 0031"/>
+      <property name="favoritegame"     value="79fd 7ffc 7684 5c24 65af 8482 5a05"/>
+
+	  <!-- Just some fun stuff you can put here.  I'm boring so I left it as its name -->
+      <property name="kingdom"          value="kingdom"/>
+      <property name="order"            value="order"/>
+      <property name="phylum"           value="phylum"/>
+      <property name="class"            value="class"/>     
+      <property name="family"           value="family"/>
+      <property name="genus"            value="genus"/>
+	  <property name="species"          value="species"/>
+</properties>
