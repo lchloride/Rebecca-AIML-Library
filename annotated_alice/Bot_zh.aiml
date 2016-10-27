@@ -28,5 +28,16 @@
 	</random>
 </template></category> 
 <category><pattern>* 4e00 70b9 4e5f 4e0d 597d *</pattern><template>90a3 5c31 4e0d 8981 0054 0061 597d 4e86</template></category> 
+<category><pattern>
+	1234 * 
+
+</pattern><template>
+	<think><set name="it"><star/></set></think>
+	<if name="it" >
+		right
+		<else/>
+		wrong
+	</if>
+</template></category> 
 <category><pattern> </pattern><template> </template></category> 
 </aiml>
